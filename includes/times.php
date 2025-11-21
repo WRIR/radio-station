@@ -145,7 +145,7 @@ function radio_station_get_timezone_options( $include_wp_timezone = false ) {
 
 	// --- maybe add WordPress timezone (default) option ---
 	if ( $include_wp_timezone ) {
-		$wp_timezone = array( '' => __( 'WordPress Timezone', 'radio-station' ) );
+		$wp_timezone = array( '' => 'WordPress Timezone' );
 		$options = array_merge( $wp_timezone, $options );
 	}
 

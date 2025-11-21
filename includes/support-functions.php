@@ -1861,7 +1861,7 @@ function radio_station_get_language_options( $include_wp_default = false ) {
 	// --- maybe include WordPress default language ---
 	if ( $include_wp_default ) {
 		// 2.3.3.6: fix to array for WordPress language setting
-		$wp_language = array( '' => __( 'WordPress Setting', 'radio-station' ) );
+		$wp_language = array( '' => 'WordPress Setting' );
 		$languages = array_merge( $wp_language, $languages );
 	}
 
